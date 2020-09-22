@@ -1,0 +1,155 @@
+	<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>TechVert</title>
+    <link rel="icon" href="images/icon.jpg" type="image/icon type">
+  </head>
+  <body style="background-color: #9f9d9b">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html"><b>Tech</b><span class="text-warning"><b>Vert</b></span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto mx-3 " style="font-family: monospace; font-size:20px;font-weight:bold;">
+      <li class="nav-item " >
+        <a class="nav-link " href="#"  >Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  " href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  " href="#"  >Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  " href="#"  >Contact</a>
+      </li>
+      
+     
+    </ul>
+    <!--<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" style="background-color:white  ; font-family: monospace; font-weight: bold; color: black">Search</button>
+    </form>-->
+
+    <div class=" mx-2">
+    <button class="btn btn-warning " data-toggle="modal" data-target="#LoginModal">Login</button> 
+    <button class="btn btn-warning" data-toggle="modal" data-target="#SignupModal">Sign Up</button></div>
+  </div>
+</nav>
+
+
+<!-- Login Modal -->
+<div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="LoginModalLabel">Welcome To TechVert</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+      <h2><u><b>Login </b></u></h2>
+       <br>
+       <br>
+       <a href="logint.html"><button type="button" class="btn btn-danger btn-lg btn-block">Login As Teacher</button></a> 
+       <br>
+       <a href="logins.html">
+
+       <button type="button" class="btn btn-success btn-lg btn-block">Login As Student</button></a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> 
+
+
+
+<!--  Signup Modal -->
+<div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signupModalLabel">Welcome To TechVert </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+       <h2><u><b>Get a Free TechVert Account</b></u></h2>
+       <br>
+       <br>
+       <a href="signupt.html"><button type="button" class="btn btn-danger btn-lg btn-block">SignUp As Teacher</button></a>
+       <br>
+       <a href="signups.html">
+<button type="button" class="btn btn-success btn-lg btn-block">SignUp As Student</button>
+   </a>   </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> 
+
+	<section class="fdb-block my-5 text-warning" style="font-family: monospace;font-weight: bold;" >
+  <div class="container" >
+    <div class="row justify-content-center ">
+      <div class="col-12 col-md-8 col-lg-7 col-md-5 text-center bg-dark" >
+        <div class="fdb-box fdb-touch" >
+          <div class="row">
+            <div class="col my-2">
+              <h1><b>Login As Student</b></h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mt-4">
+              <input type="text" class="form-control" placeholder="Roll Number">
+            </div>
+          </div>
+          
+          <div class="row mt-4">
+            <div class="col">
+              <input type="password" class="form-control mb-1" placeholder="Password">
+              	 <div class="form-group form-check text-left">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+  </div>	
+            </div>
+          </div>
+          <div class="row mt-4 my-4">
+            <div class="col">
+              <a href="dashboards.html"><button class="btn btn-success" type="button">Login</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="container">
+    <p class="float-right"> We deliver Skills Virtually...!!  <a href="#">Back to top</a> </p>
+    <p>© 2020-2021 TechVert, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
